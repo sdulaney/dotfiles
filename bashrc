@@ -13,6 +13,6 @@ export HOMEBREW_NO_INSECURE_REDIRECT=true;
 source ~/.profile
 
 # Include vv core file from https://github.com/bradp/vv
-# export PATH=$PATH:/Users/stewart/github/vv
+export PATH=$PATH:/Users/stewart/github/vv
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
