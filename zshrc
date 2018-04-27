@@ -14,6 +14,9 @@ export HOMEBREW_NO_INSECURE_REDIRECT=true;
 # Load .profile file for RBM
 source ~/.profile
 
+# MacTex
+path+=/Library/TeX/Distributions/Programs/texbin
+
 # Include vv core file from https://github.com/bradp/vv
 # export PATH=$PATH:/Users/stewart/github/vv
 
