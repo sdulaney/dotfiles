@@ -104,3 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Tell RubyGems to install into user directory
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
