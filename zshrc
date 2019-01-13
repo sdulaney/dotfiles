@@ -105,6 +105,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Tell RubyGems to install into user directory
+# Tell RubyGems to install into user directory to install CocoaPods
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
+
+# Anaconda Distribution
+export PATH="$HOME/anaconda3/bin:$PATH"
