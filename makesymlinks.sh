@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc ngrok2 tmux.conf bin gitignore_global zshrc"    # list of files/folders to symlink in homedir
+files="bashrc vimrc ngrok2 tmux.conf bin gitignore_global zshrc emacs"    # list of files/folders to symlink in homedir
 
 ##########
 
