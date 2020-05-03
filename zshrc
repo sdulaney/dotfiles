@@ -119,3 +119,6 @@ if [ -f '/Users/stewart/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then .
 
 # opam configuration
 test -r /Users/stewart/.opam/opam-init/init.zsh && . /Users/stewart/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+# openjdk from homebrew
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
