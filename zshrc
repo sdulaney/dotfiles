@@ -110,7 +110,7 @@ export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 
 # Anaconda Distribution
-export PATH="$HOME/anaconda3/bin:$PATH"
+# export PATH="$HOME/anaconda3/bin:$PATH"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/stewart/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/stewart/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
@@ -122,3 +122,6 @@ test -r /Users/stewart/.opam/opam-init/init.zsh && . /Users/stewart/.opam/opam-i
 
 # openjdk from homebrew
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# Python 3.8.2
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin"
