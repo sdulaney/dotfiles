@@ -124,4 +124,4 @@ test -r /Users/stewart/.opam/opam-init/init.zsh && . /Users/stewart/.opam/opam-i
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 # Python 3.8.2
-PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:$PATH"
