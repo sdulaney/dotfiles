@@ -125,3 +125,7 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 # Python 3.8.2
 export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:$PATH"
+
+# Node Version Manager (nvm)
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
